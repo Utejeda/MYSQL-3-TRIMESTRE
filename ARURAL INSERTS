@@ -1,0 +1,9 @@
+USE ARURAL;
+
+INSERT INTO PERSONA VALUES ('11111','Perico','Jaca'),('12345213','Diana','Zaragoza'),('123456','Perico','Jaca'),('13223453','Joselito','Zaragoza'),('234523','Miguel','Alagon'),('345253','Daniel','Huesca'),('764363','Juana','Teruel');
+INSERT INTO HUESPED VALUES (2,'12345213'),(1,'13223453'),(3,'345253');
+INSERT INTO ACTIVIDADES VALUES (1,'Senderismo','Camina por la montaña',1),(2,'Natación','Nada con cuidado',1),(3,'Caballo','Apasionante aventura con caballos',3),(4,'Escalada','Sube con todo',4),(5,'Karts','Revive tu infancia',5);
+INSERT INTO ALOJAMIENTO VALUES (1,'Casa paco','Jaca','96969696','Grande'),(2,'Casa pepe','Moncayo','979797','Mediano'),(3,'Pedro Vera','alagon','959595','Pequeño');
+INSERT INTO EMPLEADOS VALUES (1,'764363',NULL,1),(2,'234523',NULL,2),(3,'123456',NULL,3);
+INSERT INTO HABITACION VALUES (1,'Simple',100,'SI',1,1),(2,'Simple',50,'NO',2,2),(3,'Doble',75,'SI',3,3);
+INSERT INTO REALIZA VALUES (1,3,'Lunes'),(2,2,'Martes'),(3,1,'Jueves'),(3,4,'Miércoles');
